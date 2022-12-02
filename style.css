@@ -1,0 +1,76 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg, #6ab3e7, #308ed1,#1a91e6);
+    background-size: cover;
+}
+.caption{
+    text-align: center;
+    color: #fff;
+}
+.todolist{
+    width: 500px;
+    height: auto;
+}
+.todolist-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todolist-input input{
+    width: 80%;
+    height: 35px;
+    border: none;
+    font-size: 15px;
+}
+.todolist-input button{
+    width: 20%;
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    background: green;
+    cursor: pointer;
+}
+.todolist-input button:hover{
+    background: rgba(2, 54, 2, 0.507);
+}
+.todolist-item{
+    width: 100%;
+    height: auto;
+}
+.todolist-item ul{
+    list-style: none;
+    padding: 0px;
+}
+.todolist-item ul li{
+    background: rgba(29, 139, 202, 0.767);
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+.todolist-item ul li .icon{
+    float:right;
+}
+.todolist-item ul li .icon span{
+    cursor: pointer;
+}
+.todolist-item ul li .icon span.close{
+    padding-right: 15px;
+    color: rgb(182, 3, 3);
+}
+.todolist-item ul li .icon span.check{
+    padding-right: 12px;
+    color: green;
+}
+.todolist-item ul li .icon span.trash{
+    background: rgb(4, 81, 126);
+    padding: 5px;
+    border-radius: 3px;
+}
+.todolist-item ul li .icon span.trash:hover{
+    background:  rgba(4, 81, 126, 0.329);
+}
