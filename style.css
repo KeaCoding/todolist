@@ -10,6 +10,7 @@ html,body{
 .caption{
     text-align: center;
     color: #fff;
+    font-size: 18px;
 }
 .todolist{
     width: 500px;
